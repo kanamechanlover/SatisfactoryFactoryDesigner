@@ -16,6 +16,9 @@ export default defineConfig({
       }
     ]
   },
+  build: {
+    outDir: './docs'
+  },
   plugins: [vue({
     template: {
       compilerOptions: {
